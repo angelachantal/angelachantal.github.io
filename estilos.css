@@ -137,15 +137,7 @@ footer{
 } */ 
 
 /* IMAGENS DA ÁREA DO CENTRO */
-.img-centro-1 {
-    max-width: 100%;
-}
-
-.img-centro-2 {
-    max-width: 90%;
-}
-
-.img-centro-3 {
+.img-centro-2 ,.img-centro-1, .img-centro-3{
     max-width: 90%;
 }
 
