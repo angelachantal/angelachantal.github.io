@@ -14,59 +14,87 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1 style="text-align: center; text-transform: uppercase;">Portal IAW 166</h1>
-            <h2 style="text-align: center;">Slogan</h2>
-        </header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" > <!-- Barra de navegação -->
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse">
-                    <div class="navbar-nav">
-                            <a class="nav-link" href="index.html">Início</a>
-                            <a class="nav-link" href="esporte.html">Esporte</a>
-                            <a class="nav-link" href="cultura.html">Cultura</a>
-                            <a class="nav-link" href="tecnologia.html">Tecnologia</a>
-                            <a class="nav-link" href="entretenimento.html">Entretenimento</a>
-                            Pesquisar no Site <!-- incluir uma barra de pesquisa -->
-                            <!-- se der tempo, podemos fazer um formulário simples de cadastro para newsletters - SE DER TEMPO!!! kkkk -->
-                    </div>
+    <header>
+        <h1 style="text-align: center; text-transform: uppercase;">Portal IAW 166</h1>
+        <h3 style="text-align: center;">Slogan</h2>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-gray"> <!-- Barra de navegação -->
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Início</a>
+                    <a class="nav-link" href="esporte.html">Esporte</a>
+                    <a class="nav-link" href="cultura.html">Cultura</a>
+                    <a class="nav-link" href="tecnologia.html">Tecnologia</a>
+                    <a class="nav-link" href="entretenimento.html">Entretenimento</a>
+
                 </div>
             </div>
-        </nav>
-        <p>Página criada para fins didático, como critério de avaliação da disciplina Internet e Aplicações Web (IFPI/2024.1). As notícias aresentadas são fictícias e foram criadas com ajuda da IA.</p>
-        <div class="row">
-            <main class=col-md-8>
-                <h2>Times Brasileiros se Preparando para o Campeonato Mundial</h2>
-                <p>O Campeonato Mundial de Futebol está se aproximando, e os times brasileiros estão intensificando seus treinamentos para garantir uma performance de destaque. A seleção nacional, sob a liderança do novo técnico João Silva, tem realizado uma série de amistosos internacionais para ajustar a formação e melhorar o entrosamento dos jogadores. As estratégias de jogo estão sendo refinadas, e a equipe está focada em fortalecer a defesa e aprimorar o ataque.</p>
-                <p>Enquanto isso, clubes brasileiros como o Flamengo e o Palmeiras também estão se preparando para o campeonato interclubes que antecede o evento principal. Esses clubes têm promovido treinos intensivos e contratados especialistas para ajudar na preparação física e técnica dos atletas. O Flamengo, por exemplo, trouxe um renomado treinador de fitness para otimizar o desempenho dos jogadores.</p>
-                <p>A torcida está eufórica e as expectativas são altas. Acompanhar o progresso dos times e a preparação para o campeonato está gerando uma grande expectativa entre os fãs, que aguardam ansiosos para ver como as equipes brasileiras se sairão em um dos torneios mais importantes do futebol mundial.</p>
-            </main>
-            <div class=col-md-4>
-                <aside>
-                    <h5>Filmes que Você Não Pode Perder Este Ano</h5>
-                    <p>Resenha e recomendações sobre os principais filmes apresentados no festival de cinema local.</p>
-                    <p>Leia mais na Seção de <a haref="cultura.html">Cultura</a></p>
-                </aside>
+        </div>
+        <!-- Barra de pesquisa -->
+        <form class="d-flex" action="https://www.google.com/search" method="get">
+            <input class="form-control me-2" type="text" name="q" placeholder="Pesquisar">
+            <button class="btn btn-sm btn-outline-secondary" type="submit">Buscar</button>
+        </form>
 
-                <hr>
-             <!-- ùltimas notícias (à direita, class=col-md-4) -->
-                <h5>Últimas Notícias</h5>
-                <p><a haref="esportes.html">Times Brasileiros se Preparando para o Campeonato Mundial</a></p>
-                <p><a haref="tecnologia.html">Lançamento de Novo Smartphone Revoluciona o Mercado</a></p>
-                <hr>
-            <!-- Opnião - link para lugar nenhum? (à direita, abaixo de últimas notíciasclass=col-md-4) -->
-                <h5>Opinião</h5>
-                <p><a haref="#">Eleições 2024 por Leonardo Da Vinci</a></p>
-                <hr>
-        
-                <!-- Propaganda - no material, o professor fala sobre animação para transiçãp de texto - não sei como faz isso, mas se tiver em algum dos códigs que ele fez em sala de aula, podemos usar (à direita, abaixo de últimas notíciasclass=col-md-4) -->
-                <h5>Novo Smartphone X-Zero</h5>
-                <p>Seu tempo é nossa prioridade.</p>
-                <hr>
-            </div>
-        <footer>
-            <!-- pegar o que fizemos na 1ª avaliação -->
-        </footer>
+    </nav>
+    <p>Página criada para fins didático, como critério de avaliação da disciplina Internet e Aplicações Web (IFPI/2024.1). As notícias aresentadas são fictícias e foram criadas com ajuda da IA.</p>
+    <div class="row">
+        <main class=col-md-8>
+            
+            <h2>Times Brasileiros se Preparando para o Campeonato Mundial</h2>
+            <p>O Campeonato Mundial de Futebol está se aproximando, e os times brasileiros estão intensificando seus treinamentos para garantir uma performance de destaque. A seleção nacional, sob a liderança do novo técnico João Silva, tem realizado uma série de amistosos internacionais para ajustar a formação e melhorar o entrosamento dos jogadores. As estratégias de jogo estão sendo refinadas, e a equipe está focada em fortalecer a defesa e aprimorar o ataque.</p>
+            <div class="col-md-4">
+                <img src="imagens/jogador.png" alt="" class="img-fluid rounded float-start">
+                <sup class="img-fluid rounded float-start">Imagem por <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=34248">Clker-Free-Vector-Images</a> de <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=34248">Pixabay</a></sup>
+            </div> 
+            <p>Enquanto isso, clubes brasileiros como o Flamengo e o Palmeiras também estão se preparando para o campeonato interclubes que antecede o evento principal. Esses clubes têm promovido treinos intensivos e contratados especialistas para ajudar na preparação física e técnica dos atletas. O Flamengo, por exemplo, trouxe um renomado treinador de fitness para otimizar o desempenho dos jogadores.</p>
+            <p>A torcida está eufórica e as expectativas são altas. Acompanhar o progresso dos times e a preparação para o campeonato está gerando uma grande expectativa entre os fãs, que aguardam ansiosos para ver como as equipes brasileiras se sairão em um dos torneios mais importantes do futebol mundial.</p>
+        </main>
+        <div div class="col-md-3">
+            <aside>
+                <h5>Filmes que Você Não Pode Perder Este Ano</h5>
+                <p>Resenha e recomendações sobre os principais filmes apresentados no festival de cinema local.</p>
+                <sup>Leia mais na Seção de <a href="cultura.html">Cultura</a></sup>
+            </aside>
+                <div> 
+                    <!-- ùltimas notícias -->
+                    <hr>
+                    <h5>Últimas Notícias</h5>
+                    <p><a href="esportes.html">Times Brasileiros se Preparando para o Campeonato Mundial</a></p>
+                    <p><a href="tecnologia.html">Lançamento de Novo Smartphone Revoluciona o Mercado</a></p>
+                </div>
+                <div>
+                    <hr>
+                    <!-- Opinião - link para lugar nenhum-->
+                    <h5>Opinião</h5>
+                    <p><a href="#">Eleições 2024 por Leonardo Da Vinci</a></p>
+                </div>
+                <div>
+                    <!-- Propaganda - link para lugar nenhum?-->
+                    <hr>
+                    <div class="col-md-4">
+                        <img src="imagens/mulher-smartphone.png" alt="" class="img-fluid rounded float-start">
+                        <sup class="img-fluid rounded float-start"><a href="https://pixabay.com/users/souandresantana-61090/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5575199">André Santana</a></sup>
+                    </div> 
+                    <h6 class="publi"><a href="#">Novo Smartphone X-Zero</a></h6>
+                    <sub class="publi"><a href="#">Seu tempo é nossa prioridade.</a></sub>
+                </div>
+        </div>
     </div>
+    <footer>
+        <!-- Rodapé -->
+        <p class="rodape1">Portal IAW 166 &reg;</p>
+        <hr>
+        <p class="rodape2"> <img style="height: 20px;" src="imagens/logoCYA.png" alt=""> &nbsp; 
+            Rua Endereço, 0000 - Bairro. Teresina/PI - 64.000-000 | www.iaw166.com.br |&#128231; contato@iaw166.com.br | &nbsp; &nbsp; &nbsp;
+            <a href="https://github.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/github.png" alt="GitHub" class="icones"> </a> &nbsp;
+            <a href="https://www.instagram.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp;
+            <a href="https://twitter.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/x_twitter.png" alt="X" class="icones"> </a>&nbsp;
+            <a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; 
+            <a href="https://www.linkedin.com/in/cyatech" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
+        </p>
+    </footer>
+</div>
 </body>
 </html>

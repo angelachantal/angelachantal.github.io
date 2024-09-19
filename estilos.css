@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, white , black);
+}
+
+div, main, section, aside, nav, sup{
+    margin: 0;
+    padding: 0;
+}
+/* Títulos */
+
+h1, h2, h3, h4, h5, h6, p, sup{
+    /* margin-left: 3rem;
+    margin-right: 3rem; */
+}
+
+h1, h2{
+    text-align: center; 
+    font-size: 32px;
+ }
+/* Imagens */
+
+img{
+    margin: 0.5rem 1rem 1rem 0rem;
+    padding: .5px;
+
+}
+
+/* Novas Classes */
+
+ .titulo{
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.esquerda{
+    text-align: left;
+}
+
+.destaque{
+    font-size: small;
+}
+
+/* .container{
+    margin: 0;
+    padding: 2rem;
+} */
+
+/* Links */
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    transition: bacground-color
+}
+
+a:hover{
+    background-image:linear-gradient(to right, #004aad, #cb6ce6);
+    border-radius: 5px;
+}
+
+
+/* Rodapé */
+
+.icones{
+    width: 40px;
+    height: auto;    
+}
+
+.rodape1{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 0.5em;
+    text-transform:uppercase;
+    vertical-align:bottom;
+    color: white;
+}
+
+.rodape2{
+    text-align: right;
+    font-size: 1rem;
+    line-height: 0.5em;
+    vertical-align: middle;
+    padding-bottom: 2rem;
+    color: white;
+
+
+}
+.rodape2 a{
+    background: none;
+}
+
+footer{
+    padding-top: 2px;
+} */ 
+
+
+/* Navegação da página */
+
+/* nav {
+    font-size: 2rem;
+    padding: 500px 20px 0px 20px;
+    color: white;
+   
+}
+nav.port{
+    padding-top: 250px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding-right: 30px;
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    /* text-decoration: none;
+    padding: 4px 5px;
+    transition: bacground-color;  /* Efeito da transição */
+/* }
+nav ul li a:hover {
+    background-image:linear-gradient(to right, #004aad, #cb6ce6);
+    border-radius: 5px;
+} */ 
+
+/* Listas */
+/* ol li{
+    list-style:lower-alpha; 
+}
+
+li{
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+}
+ */
+
+
+/* Tabelas */
+
+/* table{
+    margin: 5%;
+    border-collapse: collapse;
+}
+
+td{
+    padding-right: 50px;
+    text-align: left;
+}
+
+} */
+
+/* 
+
+
+
+
+.menu{
+    margin: 0;
+    text-align: right;
+    position: absolute;
+}
+
+.menu a{
+    background: none;
+}
+
+
+
+
+
+/* #sgbd, #site, #app{ 
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+#sgbd{
+    background-image: url(imagens/banco_de_dados.png);
+
+}
+
+#site{
+    background-image: url(imagens/site.png);
+}
+
+#app{
+    background-image: url(imagens/app.png);
+}
+.margem500{
+    margin-left: 520px;
+    margin-top: 50px;
+    padding: 0;
+}
+
