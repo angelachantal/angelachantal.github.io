@@ -1,54 +1,51 @@
-<!-- Fonte da imagem PIPOCA : Image by <a href="https://pixabay.com/users/dbreen-1643989/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1085072">Devon Breen</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1085072">Pixabay</a> -->
-
-<!-- Fonte da imagem CINEMA: Image by <a href="https://pixabay.com/users/wernerredlich-6172061/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8569119">Werner Redlich</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8569119">Pixabay</a> -->
-
-<!-- Fonte da imagem CLAQUETE: Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1294496">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1294496">Pixabay</a> -->
-
-<!-- FILME: Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=160562">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=160562">Pixabay</a> -->
-
-<!-- FILME2: Imagem por <a href="https://pixabay.com/users/gdj-1086657/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1861453">Gordon Johnson</a> de <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1861453">Pixabay</a> -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal IAW 166</title>
+    <title>Portal INFO</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <!-- integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
-    <link rel="stylesheet" href="estilos.css">     
+    <link rel="stylesheet" href="estilos.css">  
+    <link rel="shortcut icon" href="imagens/PI.png" type="image/x-icon">   
 </head>
 
 <body>
-    <div class="container">
-    <header>
-        <h1 style="text-align: center; text-transform: uppercase;">Portal IAW 166</h1>
-        <h2 style="text-align: center;">Slogan</h2>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-gray"> <!-- Barra de navegação -->
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.html">Início</a>
-                    <a class="nav-link" href="esporte.html">Esporte</a>
-                    <a class="nav-link" href="cultura.html">Cultura</a>
-                    <a class="nav-link" href="tecnologia.html">Tecnologia</a>
-                    <a class="nav-link" href="entretenimento.html">Entretenimento</a>
-
+    <div class="video-banner">
+        <video autoplay muted loop class="w-100" style="height: 300px;">
+            <source src="imagens/video_banner_site.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light text-white"> <!-- Barra de navegação -->
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#">Início</a>
+                        <a class="nav-link" href="esporte.html">Esporte</a>
+                        <a class="nav-link" href="cultura.html">Cultura</a>
+                        <a class="nav-link" href="tecnologia.html">Tecnologia</a>
+                        <a class="nav-link" href="entretenimento.html">Entretenimento</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Barra de pesquisa -->
-        <form class="d-flex" action="https://www.google.com/search" method="get">
-            <input class="form-control me-2" type="text" name="q" placeholder="Pesquisar">
-            <button class="btn btn-sm btn-outline-secondary" type="submit">Buscar</button>
-        </form>
+            <!-- Barra de pesquisa -->
+            <form class="d-flex" action="https://www.google.com/search" method="get">
+                <input class="form-control me-2" type="text" name="q" placeholder="Pesquisar">
+                <button class="btn btn-sm btn-outline-secondary" type="submit">Buscar</button>
+            </form>
+        </nav>
+    </header>
 
-    </nav>
-    <p>Página criada para fins didático, como critério de avaliação da disciplina Internet e Aplicações Web (IFPI/2024.1). As notícias aresentadas são fictícias e foram criadas com ajuda da IA.</p>
-    <div class="row">
-        <main class="col-md-8">
+    <div class="row" id="principal">
+        <hr>
+        <aside id="texto-informação">
+            <p>Página criada para fins didático, como critério de avaliação da disciplina Internet e Aplicações Web
+                (IFPI/2024.1). <br> As notícias aresentadas são fictícias e foram criadas com ajuda da IA.</p>
+        </aside>
+
+        <main class="col-md-8" id="destaque">
             <h2>Filmes que Você Não Pode Perder Este Ano</h2>
                 <img src="imagens/filme.png" alt="" class="img-fluid rounded float-start">
                 <sup class="img-fluid rounded float-start">Imagem por <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=160562">OpenClipart-Vectors</a> de <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=160562">Pixabay</a></sup>
@@ -60,7 +57,7 @@
             <p>Outro filme que está atraindo muita atenção é a comédia romântica "Amor ao Redor do Mundo", que promete conquistar o público com seu roteiro inteligente e personagens cativantes. A produção apresenta uma história de amor que se desenrola em várias cidades ao redor do mundo, oferecendo uma visão leve e encantadora das relações humanas.</p>
             <p>Além dos filmes em competição, o festival também está oferecendo uma série de palestras e workshops com renomados cineastas e críticos. Esses eventos são uma oportunidade valiosa para os aspirantes a cineastas e entusiastas do cinema aprenderem mais sobre a indústria e se conectarem com profissionais do setor.</p>
         </main>
-        <div div class="col-md-3">
+        <div class="col-md-3">
             <aside>
                 <h5>Filmes que Você Não Pode Perder Este Ano</h5>
                 <p>Resenha e recomendações sobre os principais filmes apresentados no festival de cinema local.</p>
@@ -92,7 +89,7 @@
         </div>
         <footer>
             <!-- Rodapé -->
-            <p class="rodape1">Portal IAW 166 &reg;</p>
+            <p class="rodape1">Portal INFO &reg;</p>
             <hr>
             <p class="rodape2"> <img style="height: 20px;" src="imagens/logoCYA.png" alt=""> &nbsp; 
                 Rua Endereço, 0000 - Bairro. Teresina/PI - 64.000-000 | www.iaw166.com.br |&#128231; contato@iaw166.com.br | &nbsp; &nbsp; &nbsp;
@@ -104,6 +101,5 @@
             </p>
         </footer>
     </div>
-</div>
 </body>
 </html>
