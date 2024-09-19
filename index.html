@@ -4,23 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal IAW 166</title>
+    <title>Portal INFO</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
     <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="imagens/PI.png" type="image/x-icon">
 </head>
 
 <!-- Trabalho avaliativo apresentado pelos alunos ÂNGELA CHANTAL e CARLOS ANDRÉ TEIXEIRA, para a disciplina Internet e Aplicações Web, 2º Bimestre de 2024, do Curso Técnico em Desenvolvimento de Sistemas do IFPI-->
 
 <body>
-    <div class="container">
-        <header class="col-md-12">
-            <!-- Cabeçalho - nome, logo -->
-            <h1 class="titulo">Portal IAW 166</h1>
-            <h2>Slogan</h2>
-        </header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-gray"> <!-- Barra de navegação -->
+    <div class="video-banner">
+        <video autoplay muted loop class="w-100" style="height: 300px;">
+            <source src="imagens/video_banner_site.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-light text-white"> <!-- Barra de navegação -->
             <div class="container-fluid">
                 <div class="collapse navbar-collapse">
                     <div class="navbar-nav">
@@ -29,7 +30,6 @@
                         <a class="nav-link" href="cultura.html">Cultura</a>
                         <a class="nav-link" href="tecnologia.html">Tecnologia</a>
                         <a class="nav-link" href="entretenimento.html">Entretenimento</a>
-
                     </div>
                 </div>
             </div>
@@ -38,69 +38,80 @@
                 <input class="form-control me-2" type="text" name="q" placeholder="Pesquisar">
                 <button class="btn btn-sm btn-outline-secondary" type="submit">Buscar</button>
             </form>
-
         </nav>
-        <p>Página criada para fins didático, como critério de avaliação da disciplina Internet e Aplicações Web
-            (IFPI/2024.1).</p>
-        <p>As notícias aresentadas são fictícias e foram criadas com ajuda da IA.</p>
-        <div class="row" id="principal">
-            <!-- Notícia destaque-->
-            <aside class="col-md-3" class="destaque">
-                <img src="imagens/lady-160472_1280.png" alt="" class="card-img">
-                <h5 class="esquerda">Filmes que Você Não Pode Perder Este Ano</h5>
-                <p>Resenha e recomendações sobre os principais filmes apresentados no festival de
-                    cinema local.</p>
-                <p>Leia mais na Seção de <a href="cultura.html">Cultura</a></p>
-            </aside>
-            <!--Conteúdo-->
-            <main class="col-md-6">
-                <h3 class="esquerda">Times Brasileiros se Preparando para o Campeonato Mundial</h3>
-                <p>Cobertura das preparações e expectativas dos times brasileiros para o campeonato.</p>
-                <p>Leia mais na Seção de <a haref="esportes.html">Esportes</a></p>
-                <h3 class="esquerda">Lançamento de Novo Smartphone Revoluciona o Mercado</h3>
-                <p>Uma análise detalhada sobre o novo smartphone que promete mudar a indústria de tecnologia.</p>
-                <p>Leia mais na Seção de <a haref="tecnologia.html">Tecnologia</a></p>
-                <h3 class="esquerda">Estrela da Música Anuncia Turnê Mundial</h3>
-                <p>Detalhes sobre a nova turnê da artista e o que os fãs podem esperar.</p>
-                <p>Leia mais na Seção de <a haref="entretenimento.html">Entretenimento</a></p>
-            </main>
-            <div class="col-md-3">
-                <div> <!-- ùltimas notícias (à direita, class=col-md-4) -->
-                    <h5>Últimas Notícias</h5>
-                    <p><a href="esportes.html">Times Brasileiros se Preparando para o Campeonato Mundial</a></p>
-                    <p><a href="tecnologia.html">Lançamento de Novo Smartphone Revoluciona o Mercado</a></p>
-                </div>
-                <div><!-- Opinião - link para lugar nenhum? (à direita, abaixo de últimas notíciasclass=col-md-4) -->
-                    <hr>
-                    <h5>Opinião</h5>
-                    <p><a href="#">Eleições 2024 por Leonardo Da Vinci</a></p>
-                </div>
-                <div>
-                    <!-- Propaganda - link para lugar nenhum?-->
-                    <hr>
-                    <div class="col-md-4">
-                        <img src="imagens/mulher-smartphone.png" alt="" class="img-fluid rounded float-start">
-                        <sup class="img-fluid rounded float-start"><a href="https://pixabay.com/users/souandresantana-61090/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5575199">André Santana</a></sup>
-                    </div> 
-                    <h6 class="publi"><a href="#">Novo Smartphone X-Zero</a></h6>
-                    <sub class="publi"><a href="#">Seu tempo é nossa prioridade.</a></sub>
-                </div>
+    </header>
+    
+    <div class="row" id="principal">
+        <hr>
+        <aside id="texto-informação">
+            <p>Página criada para fins didático, como critério de avaliação da disciplina Internet e Aplicações Web
+                (IFPI/2024.1). <br> As notícias aresentadas são fictícias e foram criadas com ajuda da IA.</p>
+        </aside>
+
+        <!-- Notícia destaque-->
+        <aside class="col-md-3" id="destaque">
+            <img src="imagens/lady-160472_1280.png" alt="" class="card-img">
+            <h5 class="esquerda">Filmes que Você Não Pode Perder Este Ano</h5>
+            <p>Resenha e recomendações sobre os principais filmes apresentados no festival de
+                cinema local.</p>
+            <p>Leia mais na Seção de <a href="cultura.html">Cultura</a></p>
+        </aside>
+
+        <!--Conteúdo-->
+        <main class="col-md-6" id="centro">
+            <h3 class="esquerda">Times Brasileiros se Preparando para o Campeonato Mundial</h3>
+            <img src="imagens/campo_futebol.webp" alt="" class="img-centro-1">
+            <p>Cobertura das preparações e expectativas dos times brasileiros para o campeonato.</p>
+            <p>Leia mais na Seção de <a href="esportes.html">Esportes</a></p>
+
+            <h3 class="esquerda">Lançamento de Novo Smartphone Revoluciona o Mercado</h3>
+            <img src="imagens/imagem-telefone.webp" alt="" class="img-centro-2">
+            <p>Uma análise detalhada sobre o novo smartphone que promete mudar a indústria de tecnologia.</p>
+            <p>Leia mais na Seção de <a href="tecnologia.html">Tecnologia</a></p>
+
+            <h3 class="esquerda">Estrela da Música Anuncia Turnê Mundial</h3>
+            <img src="imagens/show-musica.jpg" alt="" class="img-centro-3">
+            <p>Detalhes sobre a nova turnê da artista e o que os fãs podem esperar.</p>
+            <p>Leia mais na Seção de <a href="entretenimento.html">Entretenimento</a></p>
+        </main>
+
+        <div class="col-md-3" id="direita">
+            <div> <!-- ùltimas notícias (à direita, class=col-md-4) -->
+                <h5>Últimas Notícias</h5>
+                <p><a href="esportes.html">Times Brasileiros se Preparando para o Campeonato Mundial</a></p>
+                <p><a href="tecnologia.html">Lançamento de Novo Smartphone Revoluciona o Mercado</a></p>
+            </div>
+            <div><!-- Opinião - link para lugar nenhum? (à direita, abaixo de últimas notíciasclass=col-md-4) -->
+                <hr>
+                <h5>Opinião</h5>
+                <p><a href="#">Eleições 2024 por Leonardo Da Vinci</a></p>
+            </div>
+
+            <div>
+                <!-- Propaganda - link para lugar nenhum?-->
+                <hr>
+                <div class="col-md-4">
+                    <img src="imagens/mulher-smartphone.png" alt="" class="img-fluid rounded float-start">
+                    <sup class="img-fluid rounded float-start"><a href="https://pixabay.com/users/souandresantana-61090/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5575199">André Santana</a></sup>
+                </div> 
+                <h6 class="publi"><a href="#">Novo Smartphone X-Zero</a></h6>
+                <sub class="publi"><a href="#">Seu tempo é nossa prioridade.</a></sub>
             </div>
         </div>
-        <footer>
-            <!-- Rodapé -->
-            <p class="rodape1">Portal IAW 166 &reg;</p>
-            <hr>
-            <p class="rodape2"> <img style="height: 20px;" src="imagens/logoCYA.png" alt=""> &nbsp; 
-                Rua Endereço, 0000 - Bairro. Teresina/PI - 64.000-000 | www.iaw166.com.br |&#128231; contato@iaw166.com.br | &nbsp; &nbsp; &nbsp;
-                <a href="https://github.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/github.png" alt="GitHub" class="icones"> </a> &nbsp;
-                <a href="https://www.instagram.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp;
-                <a href="https://twitter.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/x_twitter.png" alt="X" class="icones"> </a>&nbsp;
-                <a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; 
-                <a href="https://www.linkedin.com/in/cyatech" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
-            </p>
-        </footer>
     </div>
+    <footer>
+        <!-- Rodapé -->
+        <p class="rodape1">Portal INFO &reg;</p>
+        <hr>
+        <p class="rodape2"> <img style="height: 20px;" src="imagens/logoCYA.png" alt=""> &nbsp; 
+            Rua Endereço, 0000 - Bairro. Teresina/PI - 64.000-000 | www.iaw166.com.br |&#128231; contato@iaw166.com.br | &nbsp; &nbsp; &nbsp;
+            <a href="https://github.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/github.png" alt="GitHub" class="icones"> </a> &nbsp;
+            <a href="https://www.instagram.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/instagram.png" alt="Instagram" class="icones"> </a> &nbsp;
+            <a href="https://twitter.com/cyatecnologia" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/x_twitter.png" alt="X" class="icones"> </a>&nbsp;
+            <a href="https://api.whatsapp.com/send?phone=55869999999999" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/whatsapp.png" alt="WhatsApp" class="icones"> </a> &nbsp; 
+            <a href="https://www.linkedin.com/in/cyatech" target="_blank"> <img style="height: 20px; width: 20px;" src="imagens/linkedin.png" alt="LinkedIn" class="icones"></a>
+        </p>
+    </footer>
 </body>
 
 </html>
