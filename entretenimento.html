@@ -4,19 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal IAW 166</title>
+    <title>Portal INFO</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
     <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="imagens/PI.png" type="image/x-icon">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1 style="text-align: center; text-transform: uppercase;">Portal IAW 166</h1>
-            <h3 style="text-align: center;">Slogan</h2>
-        </header>
+    <div class="video-banner">
+        <video autoplay muted loop class="w-100" style="height: 300px;">
+            <source src="imagens/video_banner_site.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-gray"> <!-- Barra de navegação -->
             <div class="container-fluid">
                 <div class="collapse navbar-collapse">
@@ -26,7 +29,6 @@
                         <a class="nav-link" href="cultura.html">Cultura</a>
                         <a class="nav-link" href="tecnologia.html">Tecnologia</a>
                         <a class="nav-link" href="entretenimento.html">Entretenimento</a>
-
                     </div>
                 </div>
             </div>
@@ -35,71 +37,75 @@
                 <input class="form-control me-2" type="text" name="q" placeholder="Pesquisar">
                 <button class="btn btn-sm btn-outline-secondary" type="submit">Buscar</button>
             </form>
-
         </nav>
-        <p>Página criada para fins didático, como critério de avaliação da disciplina Internet e Aplicações Web
-            (IFPI/2024.1). As notícias aresentadas são fictícias e foram criadas com ajuda da IA.</p>
-        <div class="row">
-            <main class=col-md-8>
+    </header>
+    
+    <div class="row" id="principal">
+        <hr>
+        <aside id="texto-informação">
+            <p>Página criada para fins didático, como critério de avaliação da disciplina Internet e Aplicações Web
+                (IFPI/2024.1). <br> As notícias aresentadas são fictícias e foram criadas com ajuda da IA.</p>
+        </aside>
+
+        <main class=col-md-8 id="destaque">
+            <div class="col-md-4">
+                <img src="imagens/cantora.png" alt="" class="img-fluid rounded float-start">
+                <sup class="img-fluid rounded float-start">Imagem por <a
+                        href="https://pixabay.com/users/vika_glitter-6314823/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5498876">Victoria</a>
+                    de <a
+                        href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5498876">Pixabay</a></sup>
+            </div>
+            <h2>Estrela da Música Anuncia Turnê Mundial</h2>
+            <p>A famosa cantora pop, Mariana Costa, anunciou sua nova turnê mundial, que promete ser um dos eventos
+                mais aguardados do ano. A turnê, intitulada "Ecos do Futuro", incluirá apresentações em mais de 20
+                cidades ao redor do mundo, começando em São Paulo e passando por grandes centros como Nova York,
+                Londres e Tóquio. Mariana, conhecida por sua presença de palco carismática e hits contagiantes, está
+                preparando um show deslumbrante que combina tecnologia de ponta com uma produção grandiosa.</p>
+            <p>O novo álbum de Mariana, que dá nome à turnê, já está gerando uma enorme expectativa entre os fãs.
+                Com músicas que exploram temas de auto-descoberta e empoderamento, o álbum promete ressoar
+                profundamente com o público. A artista revelou que a turnê contará com uma série de colaborações
+                especiais e performances ao vivo de suas músicas mais populares, além de novas coreografias e
+                efeitos visuais.</p>
+            <p>Os ingressos para os primeiros shows já estão à venda e estão se esgotando rapidamente. A turnê de
+                Mariana Costa é um evento imperdível para os fãs de música pop e promete ser uma celebração
+                inesquecível da arte e da música.</p>
+        </main>
+        <div class="col-md-3">
+            <aside>
+                <h5>Filmes que Você Não Pode Perder Este Ano</h5>
+                <p>Resenha e recomendações sobre os principais filmes apresentados no festival de cinema local.</p>
+                <sup>Leia mais na Seção de <a href="cultura.html">Cultura</a></sup>
+            </aside>
+            <div>
+                <!-- ùltimas notícias -->
+                <hr>
+                <h5>Últimas Notícias</h5>
+                <p><a href="esportes.html">Times Brasileiros se Preparando para o Campeonato Mundial</a></p>
+                <p><a href="tecnologia.html">Lançamento de Novo Smartphone Revoluciona o Mercado</a></p>
+            </div>
+            <div>
+                <hr>
+                <!-- Opinião - link para lugar nenhum-->
+                <h5>Opinião</h5>
+                <p><a href="#">Eleições 2024 por Leonardo Da Vinci</a></p>
+            </div>
+            <div>
+                <!-- Propaganda - link para lugar nenhum?-->
+                <hr>
                 <div class="col-md-4">
-                    <img src="imagens/cantora.png" alt="" class="img-fluid rounded float-start">
-                    <sup class="img-fluid rounded float-start">Imagem por <a
-                            href="https://pixabay.com/users/vika_glitter-6314823/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5498876">Victoria</a>
-                        de <a
-                            href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5498876">Pixabay</a></sup>
+                    <img src="imagens/mulher-smartphone.png" alt="" class="img-fluid rounded float-start">
+                    <sup class="img-fluid rounded float-start"><a
+                            href="https://pixabay.com/users/souandresantana-61090/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5575199">André
+                            Santana</a></sup>
                 </div>
-                <h2>Estrela da Música Anuncia Turnê Mundial</h2>
-                <p>A famosa cantora pop, Mariana Costa, anunciou sua nova turnê mundial, que promete ser um dos eventos
-                    mais aguardados do ano. A turnê, intitulada "Ecos do Futuro", incluirá apresentações em mais de 20
-                    cidades ao redor do mundo, começando em São Paulo e passando por grandes centros como Nova York,
-                    Londres e Tóquio. Mariana, conhecida por sua presença de palco carismática e hits contagiantes, está
-                    preparando um show deslumbrante que combina tecnologia de ponta com uma produção grandiosa.</p>
-                <p>O novo álbum de Mariana, que dá nome à turnê, já está gerando uma enorme expectativa entre os fãs.
-                    Com músicas que exploram temas de auto-descoberta e empoderamento, o álbum promete ressoar
-                    profundamente com o público. A artista revelou que a turnê contará com uma série de colaborações
-                    especiais e performances ao vivo de suas músicas mais populares, além de novas coreografias e
-                    efeitos visuais.</p>
-                <p>Os ingressos para os primeiros shows já estão à venda e estão se esgotando rapidamente. A turnê de
-                    Mariana Costa é um evento imperdível para os fãs de música pop e promete ser uma celebração
-                    inesquecível da arte e da música.</p>
-            </main>
-            <div div class="col-md-3">
-                <aside>
-                    <h5>Filmes que Você Não Pode Perder Este Ano</h5>
-                    <p>Resenha e recomendações sobre os principais filmes apresentados no festival de cinema local.</p>
-                    <sup>Leia mais na Seção de <a href="cultura.html">Cultura</a></sup>
-                </aside>
-                <div>
-                    <!-- ùltimas notícias -->
-                    <hr>
-                    <h5>Últimas Notícias</h5>
-                    <p><a href="esportes.html">Times Brasileiros se Preparando para o Campeonato Mundial</a></p>
-                    <p><a href="tecnologia.html">Lançamento de Novo Smartphone Revoluciona o Mercado</a></p>
-                </div>
-                <div>
-                    <hr>
-                    <!-- Opinião - link para lugar nenhum-->
-                    <h5>Opinião</h5>
-                    <p><a href="#">Eleições 2024 por Leonardo Da Vinci</a></p>
-                </div>
-                <div>
-                    <!-- Propaganda - link para lugar nenhum?-->
-                    <hr>
-                    <div class="col-md-4">
-                        <img src="imagens/mulher-smartphone.png" alt="" class="img-fluid rounded float-start">
-                        <sup class="img-fluid rounded float-start"><a
-                                href="https://pixabay.com/users/souandresantana-61090/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5575199">André
-                                Santana</a></sup>
-                    </div>
-                    <h6 class="publi"><a href="#">Novo Smartphone X-Zero</a></h6>
-                    <sub class="publi"><a href="#">Seu tempo é nossa prioridade.</a></sub>
-                </div>
+                <h6 class="publi"><a href="#">Novo Smartphone X-Zero</a></h6>
+                <sub class="publi"><a href="#">Seu tempo é nossa prioridade.</a></sub>
             </div>
         </div>
     </div>
     <footer>
         <!-- Rodapé -->
-        <p class="rodape1">Portal IAW 166 &reg;</p>
+        <p class="rodape1">Portal INFO &reg;</p>
         <hr>
         <p class="rodape2"> <img style="height: 20px;" src="imagens/logoCYA.png" alt=""> &nbsp;
             Rua Endereço, 0000 - Bairro. Teresina/PI - 64.000-000 | www.iaw166.com.br |&#128231; contato@iaw166.com.br |
